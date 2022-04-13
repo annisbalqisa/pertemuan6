@@ -6,7 +6,7 @@
         $query = mysqli_query($database, "SELECT * FROM photocard WHERE harga BETWEEN $filter ");
         while ($row = mysqli_fetch_object($query)):
 ?>
-        <div class="col-sm">
+        <div class="col-sm mt-3 auto">
           <div class="card" style="width: 15rem">
             <img src="<?= $row->gambar; ?>" class="card-img-top" alt="" />
             <div class="card-body">
