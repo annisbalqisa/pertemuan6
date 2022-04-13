@@ -17,17 +17,18 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-light bg-info" style="--bs-bg-opacity: .5;">
+			<div class="container-fluid">
+				<a class="navbar-brand">POCA SHOP</a>
+				<form class="d-flex input-group w-auto">
+					<input type="text" class="form-control" id="search" placeholder="Search photocard..." aria-label="Recipient's username" aria-describedby="button-addon2" />
+					<span class="input-group-text"><i class="bi bi-search-heart"></i></span>
+				</form>
+			</div>
+	</nav>
   <div class="container">
-    <h1 class="text-dark text-center">POCA SHOP</h1>
-
-    <button type="button" class="btn btn-primary float-end"><i class="fas fa-plus-circle"></i> Create</button>
-
-    <div class="row">
-      <div class="col-sm input-group mb-3">
-        <input type="text" class="form-control" id="search" placeholder="Search photocard..." aria-label="Recipient's username" aria-describedby="button-addon2" />
-        <span class="input-group-text"><i class="bi bi-search-heart"></i></span>
-      </div>
-      <div class="col-sm input-group mb-3">
+    <div class="row mt-5">
+      <div class="col-md input-group mb-3">
         <select class="form-select" id="filter" aria-label="Default select example">
           <option class="text-muted" selected>Filter Harga</option>
           <option value="0 AND 80000">0 - 80.000</option>
@@ -35,7 +36,7 @@
           <option value="150000 AND 300000">150.000 - 300.000</option>
         </select>
       </div>
-      <div class="col-sm input-group mb-3">
+      <div class="col-md input-group mb-3">
         <select class="form-select" id="sort" aria-label="Default select example">
           <option value="ASC">Sort by Name Ascending</option>
           <option value="DESC">Sort by Name Descending</option>
