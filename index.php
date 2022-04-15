@@ -27,6 +27,7 @@
 			</div>
 	</nav>
   <div class="container">
+		<button type="button" class="btn btn-primary float-end"><i class="fas fa-plus-circle"></i> Create</button>
     <div class="row mt-5">
       <div class="col-md input-group mb-3">
         <select class="form-select" id="filter" aria-label="Default select example">
